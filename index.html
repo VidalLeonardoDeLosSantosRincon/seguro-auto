@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Cotizar seguro</title>
+    </head>
+    <body>
+        <div class="ctr">
+            <form id="formulario"> 
+                <label for="marca" id="init">Marca:</label>
+                <select  class="field" name="marca" id="marca" value="">
+                    <option value="">Seleccionar</option>
+                    <!--options are inserted by js-->
+                </select></br>
+                    
+                <label for="anio">Año:</label>
+                <select  class="field" name="anio" id="anio" value="">
+                    <option value="">Seleccionar</option>
+                    <!--options are inserted by js-->           
+                </select>
+
+                <label for="elem">Tipo seguro:</label>
+                <br/>
+                <br/>
+                    <div id="elem">
+                        <input class="btn-radio tipo-seguro" type="radio" name="tipo-seguro" id="basico" value="basico"/>
+                        <label for="basico">Básico</label>
+                        <br/>
+                        <br/>
+                        <input class="btn-radio tipo-seguro" type="radio" name="tipo-seguro" id="completo" value="completo"/>
+                        <label for="completo">Completo</label>
+                    </div>
+                    <input class="btn" type="button" id="cotizar" value="COTIZAR">
+                
+            </form>
+        </div>
+        <script type="text/javascript" src="js/scriptMS6.js"></script>
+    </body>
+</html>

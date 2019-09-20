@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: arial;
+}
+
+.ctr{
+    background:linear-gradient(45deg,blue,dodgerblue,skyblue);
+    width:100%;
+    height:100vh;
+    padding:10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr form{
+    background:white;
+    width:500px;
+    padding: 35px ;
+    box-sizing: border-box;
+    border-radius:3px;
+    
+    border-top:10px solid skyblue;
+    border-bottom:10px solid skyblue;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.ctr form .field{
+    width:100%;
+    height:50px;
+    margin:0 0 10px 0;
+    padding:0 15px;
+    box-sizing: border-box;
+    border:none;
+    font-size:16px;
+    border-bottom: 2px  solid dodgerblue;
+    outline:none;
+}
+
+.ctr form .btn{
+    width:100%;
+    height:50px;
+    margin: 25px  0;
+    padding:0 15px;
+    color:white;
+    background: dodgerblue;
+    border-radius:3px;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+}
+
+.message-box{
+    width:100%;
+    height: auto;
+    padding:10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid transparent;
+    border-radius:3px;
+    margin: 0 0 25px 0;
+}
+
+.success{
+    background: greenyellow;
+    color:green;
+    border:1px solid green;
+}
+
+.error{
+    background: pink;
+    color:red;
+    border:1px solid red;
+}
+
+.result-box{
+    background:rgba(0,0,0,0.04);
+    height:100px;
+    color:gray;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    box-sizing:border-box;
+    padding:10px;
+    border:1px solid dodgerblue;
+    border-radius:5px;
+
+}
